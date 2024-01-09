@@ -4,7 +4,7 @@ metadata:
   name: acme-api
   description: Acme API
   tags:
-    - .net
+    - dotnet
     - c#
     - acme
   links:
