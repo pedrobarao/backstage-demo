@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: acme-portal
+  description: Acme Portal
+spec:
+  owner: acme-team
+  domain: portal
