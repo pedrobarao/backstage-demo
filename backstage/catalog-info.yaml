@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: acme-service
+  description: A example of Acme Service
+spec:
+  type: service
+  lifecycle: production
+  owner: acme-team
+  system: acme-system
+  dependsOn:
+    - resource:default/artists-db
+  providesApis:
+    - acme-api
